@@ -1,0 +1,28 @@
+{
+  "name": "nogori.io",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --reporter spec",
+    "nodemon": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.5.2",
+    "body-parser": "~1.15.1",
+    "core-js": "^2.4.0",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "node-uuid": "^1.4.7",
+    "password-hash": "^1.2.2",
+    "validator": "^5.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "del": "^2.2.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  }
+}
