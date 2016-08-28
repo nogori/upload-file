@@ -9,7 +9,7 @@ var sinon = require('sinon');
 
 chai.use(chaiHttp);
 
-describe("Device upload request api", function () {
+describe("Initial s3 bucket is being created", function () {
 
     it("stub", function (done) {
         done();

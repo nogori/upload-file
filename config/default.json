@@ -1,0 +1,15 @@
+{
+  "s3": {
+    "bucket": {
+      // Name of the bucket to use for file upload
+      "name": "nogori_fileupload_debug",
+      // The number of seconds to expire the pre-signed URL operation in.
+      "expire": 900
+    }
+  },
+  "services": {
+    "authentication": {
+      "address": "http://localhost:3001"
+    }
+  }
+}
